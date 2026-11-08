@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Takoyaki Hayyukk - Takoyaki hangat dengan banyak pilihan rasa.">
+
+    <title>Takoyaki Hayyukk | Beranda</title>
+
+    <script src="assets/jquery_3.6.4/jquery3.6.4/jquery-3.6.4.js"></script>
+
+    <link rel="stylesheet" href="assets/bootstrap_v4.6.2/bootstrap-4.6.2-dist/css/bootstrap.css">
+
+    <script src="assets/bootstrap_v4.6.2/bootstrap-4.6.2-dist/js/bootstrap.bundle.js"></script>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+    <!-- HEADER / NAVBAR -->
+    <header class="site-header">
+
+        <div class="wrap nav-wrap">
+
+            <!-- Logo -->
+            <a href="index.html" class="brand">
+                <img src="logo takoyaki.png" alt="Logo Takoyaki Hayyukk">
+            </a>
+
+            <!-- Tombol Menu Mobile -->
+            <button
+                class="menu-toggle"
+                id="menu-toggle"
+                aria-label="Buka navigasi"
+                aria-expanded="false">
+            </button>
+
+            <!-- Navigasi -->
+            <nav class="nav-links" id="nav-links">
+
+                <a href="index.html">Beranda</a>
+                <a href="katalog.html">Menu</a>
+                <a href="tentang.html">Tentang Kami</a>
+                <a href="kontak.html">Kontak</a>
+
+                <a href="katalog.html" class="nav-cta">
+                    Pesan Menu
+                </a>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <!-- KONTEN UTAMA -->
+    <main>
+
+        <!-- HERO SECTION -->
+        <section class="hero wrap">
+
+            <div class="hero-copy">
+
+                <span class="eyebrow">
+                    Hangat &bull; Gurih &bull; Bikin Nagih
+                </span>
+
+                <h1>
+                    Takoyaki
+                    <em>Hayyukk!</em>
+                </h1>
+
+                <p>
+                    Camilan lezat dengan perpaduan rasa gurih dan
+                    topping melimpah yang siap memanjakan lidahmu.
+                </p>
+
+                <!-- Tombol Hero -->
+                <div class="hero-actions">
+
+                    <a href="katalog.html" class="btn">
+                        Lihat Menu
+                        <span>&rarr;</span>
+                    </a>
+
+                    <a href="tentang.html" class="text-link">
+                        Kenalan dengan kami
+                    </a>
+
+                </div>
+
+                <div class="mini-note">
+                    Freshly made, happy tummy.
+                </div>
+
+            </div>
+
+
+            <!-- Gambar Hero -->
+            <div class="hero-photo">
+
+                <img
+                    src="gambar takoyaki beranda.jpg"
+                    alt="Takoyaki dengan saus dan topping">
+
+            </div>
+
+
+            <!-- Dekorasi -->
+            <span class="spark spark-one">✦</span>
+            <span class="spark spark-two">✦</span>
+
+        </section>
+
+
+        <!-- PRODUK FAVORIT -->
+        <section class="section wrap">
+
+            <div class="section-heading">
+
+                <div>
+                    <span class="eyebrow">Pilihan favorit</span>
+                    <h2>Menu yang sering dicari</h2>
+                </div>
+
+                <a href="katalog.html" class="text-link">
+                    Lihat semua menu &rarr;
+                </a>
+
+            </div>
+
+
+            <!-- DAFTAR PRODUK -->
+            <div class="product-grid featured" id="featured-products">
+
+
+                <!-- PRODUK 1 -->
+                <article class="product-card">
+
+                    <a href="detail.html?id=original">
+                        <img src="takoyaki original.jpg" alt="Takoyaki Original">
+                    </a>
+
+                    <div class="product-card-body">
+
+                        <span class="product-label">Original</span>
+
+                        <h3>Takoyaki Original</h3>
+
+                        <p>
+                            Takoyaki klasik dengan saus takoyaki dan
+                            mayones dengan taburan Katsuobushi di atasnya.
+                        </p>
+
+                        <strong>Rp 15.000</strong>
+
+                        <a href="detail.html?id=original" class="small-btn">
+                            Lihat Menu
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUK 2 -->
+                <article class="product-card">
+
+                    <a href="detail.html?id=cumi">
+                        <img src="takoyaki cumi.jpg" alt="Takoyaki Cumi">
+                    </a>
+
+                    <div class="product-card-body">
+
+                        <span class="product-label">Seafood</span>
+
+                        <h3>Takoyaki Cumi</h3>
+
+                        <p>
+                            Isian cumi gurih dengan tekstur lembut dan
+                            taburan Katsuobushi di atasnya.
+                        </p>
+
+                        <strong>Rp 17.000</strong>
+
+                        <a href="detail.html?id=cumi" class="small-btn">
+                            Lihat Menu
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUK 3 -->
+                <article class="product-card">
+
+                    <a href="detail.html?id=keju">
+                        <img src="takoyaki keju.jpeg" alt="Takoyaki Keju">
+                    </a>
+
+                    <div class="product-card-body">
+
+                        <span class="product-label">Cheese</span>
+
+                        <h3>Takoyaki Keju</h3>
+
+                        <p>
+                            Takoyaki dengan isian keju yang gurih
+                            dengan taburan Katsuobushi di atasnya.
+                        </p>
+
+                        <strong>Rp 18.000</strong>
+
+                        <a href="detail.html?id=keju" class="small-btn">
+                            Lihat Menu
+                        </a>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- KATEGORI PRODUK -->
+        <section class="section categories-band">
+
+            <div class="wrap">
+
+                <span class="eyebrow">
+                    Pilih sesuai selera
+                </span>
+
+                <h2>
+                    Mulai dari yang klasik sampai spesial
+                </h2>
+
+                <!-- PILIHAN KATEGORI -->
+                <div class="category-chips">
+
+                    <a href="katalog.html?category=Original">
+                        Original
+                    </a>
+
+                    <a href="katalog.html?category=Seafood">
+                        Seafood
+                    </a>
+
+                    <a href="katalog.html?category=Cheese">
+                        Cheese
+                    </a>
+
+                    <a href="katalog.html?category=Premium">
+                        Premium
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- TESTIMONI PELANGGAN -->
+        <section class="section wrap">
+
+            <div class="section-heading">
+
+                <div>
+                    <span class="eyebrow">Cerita pelanggan</span>
+                    <h2>Kata mereka</h2>
+                </div>
+
+            </div>
+
+
+            <div class="testimonial-grid">
+
+
+                <!-- TESTIMONI 1 -->
+                <article class="quote-card">
+
+                    <div class="stars">
+                        &starf;&starf;&starf;&starf;&starf;
+                    </div>
+
+                    <p>
+                        "ENAKKKK BANGETTTT KAK???? SEMOGA SEHAT SELALU
+                        BUAT OWNERNYA DAN SEMOGA TAKOYAKINYA LARISSSSSSSSSS
+                        SELALU AMINNNN. Udahh 5x pesen buat kerja kelompok,
+                        kata temen-temenku enak bangettttt kakk.
+                        Akuu juga suka bangetttt sama yang varian mozarella,
+                        rasanya gurih dan kejunya meleleh di mulut.
+                        Semoga makin sukses yaa kakakkkk, aku tunggu varian baru dari"
+                    </p>
+
+                    <b>— wong josjis, pelanggan</b>
+
+                </article>
+
+
+                <!-- TESTIMONI 2 -->
+                <article class="quote-card">
+
+                    <div class="stars">
+                        &starf;&starf;&starf;&starf;&starf;
+                    </div>
+
+                    <p>
+                        "Rasanya pas, topping-nya juga banyak.
+                        Anak-anak sampai minta beli lagi!
+                        Paling suka yang cumi! 🥰🥰."
+                    </p>
+
+                    <b>— Sri Nur Widjayati, pelanggan</b>
+
+                </article>
+
+
+                <!-- TESTIMONI 3 -->
+                <article class="quote-card">
+
+                    <div class="stars">
+                        &starf;&starf;&starf;&starf;&starf;
+                    </div>
+
+                    <p>
+                        "Pernah pesan untuk acara keluarga, responsnya
+                        cepat dan rasanya konsisten."
+                    </p>
+
+                    <b>— Sugeng Bagaskoro, pelanggan</b>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- CALL TO ACTION -->
+        <section class="cta-strip wrap">
+
+            <div>
+
+                <span class="eyebrow">
+                    Lagi pengin takoyaki?
+                </span>
+
+                <h2>
+                    Yuk, pilih menu favoritmu!
+                </h2>
+
+                <p>
+                    Pesan praktis lewat WhatsApp.
+                </p>
+
+            </div>
+
+            <a href="katalog.html" class="btn btn-light">
+                Pesan sekarang &rarr;
+            </a>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+
+        <div class="wrap">
+
+            <div class="footer-main">
+
+
+                <!-- INFORMASI TOKO -->
+                <div class="footer-brand">
+
+                    <a href="index.html">
+                        <img src="logo takoyaki.png" alt="Logo Takoyaki Hayyukk">
+                    </a>
+
+                    <p>
+                        Takoyaki hangat dengan pilihan rasa untuk
+                        menemani waktu santaimu.
+                    </p>
+
+                </div>
+
+
+                <!-- LINK FOOTER -->
+                <div class="footer-links">
+
+
+                    <!-- NAVIGASI -->
+                    <div>
+
+                        <b>Jelajahi</b>
+
+                        <a href="index.html">Beranda</a>
+                        <a href="katalog.html">Daftar Menu</a>
+                        <a href="tentang.html">Tentang Kami</a>
+
+                    </div>
+
+
+                    <!-- KONTAK -->
+                    <div>
+
+                        <b>Hubungi</b>
+
+                        <a href="https://wa.me/628812466667" target="_blank">
+                            WhatsApp
+                        </a>
+
+                        <a href="mailto:takoyakihayyukk@gmail.com">
+                            Email
+                        </a>
+
+                        <a href="kontak.html">
+                            Kontak &amp; Catering
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- COPYRIGHT -->
+            <div class="copyright">
+
+                &copy; 2026 Takoyaki Hayyukk.
+                Dibuat dengan rasa dan semangat.
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- JAVASCRIPT UTAMA WEBSITE -->
+    <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>

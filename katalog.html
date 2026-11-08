@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Katalog Menu | Takoyaki Hayyukk</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- HEADER / NAVBAR -->
+    <header class="site-header">
+        <div class="wrap nav-wrap">
+
+            <a class="brand" href="index.html">
+                <img src="logo takoyaki.png" alt="Logo Takoyaki Hayyukk">
+            </a>
+
+            <button
+                class="menu-toggle"
+                id="menu-toggle"
+                aria-label="Buka navigasi"
+                aria-expanded="false">
+                ☰
+            </button>
+
+            <nav class="nav-links" id="nav-links">
+                <a href="index.html">Beranda</a>
+                <a href="katalog.html">Menu</a>
+                <a href="tentang.html">Tentang Kami</a>
+                <a href="kontak.html">Kontak</a>
+                <a href="katalog.html" class="nav-cta">Pesan Menu</a>
+            </nav>
+
+        </div>
+    </header>
+
+
+    <!-- MAIN CONTENT -->
+    <main class="wrap page-main">
+
+        <!-- PAGE BANNER -->
+        <section class="page-banner">
+
+            <span class="eyebrow">
+                Menu kami
+            </span>
+
+            <h1>
+                Temukan takoyaki favoritmu
+            </h1>
+
+            <p>
+                Pilih rasa, tentukan jumlah, lalu pesan dengan mudah.
+            </p>
+
+        </section>
+
+
+        <!-- CATALOG TOOLS -->
+        <div class="catalog-tools">
+
+            <!-- SEARCH MENU -->
+            <label class="search-box">
+
+                <span>
+                    &#128269;
+                </span>
+
+                <input
+                    type="search"
+                    id="search-input"
+                    placeholder="Cari menu takoyaki...">
+
+            </label>
+
+
+            <!-- CATEGORY FILTER -->
+            <select id="category-filter" aria-label="Filter kategori">
+
+                <option value="">
+                    Semua kategori
+                </option>
+
+                <option>Original</option>
+                <option>Seafood</option>
+                <option>Cheese</option>
+                <option>Premium</option>
+
+            </select>
+
+
+            <!-- SORT FILTER -->
+            <select id="sort-filter" aria-label="Urutkan produk">
+
+                <option value="popular">
+                    Paling populer
+                </option>
+
+                <option value="low">
+                    Harga terendah
+                </option>
+
+                <option value="high">
+                    Harga tertinggi
+                </option>
+
+                <option value="name">
+                    Nama A-Z
+                </option>
+
+            </select>
+
+        </div>
+
+
+        <!-- RESULT COUNT -->
+        <p class="result-count" id="result-count"></p>
+
+
+        <!-- PRODUCT CATALOG -->
+        <div class="product-grid catalog-grid" id="catalog-products">
+
+
+            <!-- PRODUCT 1: TAKOYAKI ORIGINAL -->
+            <article
+                class="product-card"
+                data-id="original"
+                data-name="Takoyaki Original"
+                data-category="Original"
+                data-price="15000">
+
+                <a href="detail.html?id=original">
+                    <img src="takoyaki original.jpg" alt="Takoyaki Original">
+                </a>
+
+                <div class="product-card-body">
+
+                    <span class="badge">
+                        Original
+                    </span>
+
+                    <h3>
+                        Takoyaki Original
+                    </h3>
+
+                    <p>
+                        Takoyaki klasik dengan saus takoyaki dan mayones dengan taburan Katsuobushi di atasnya.
+                    </p>
+
+                    <div class="card-bottom">
+
+                        <strong class="price">
+                            Rp 15.000
+                        </strong>
+
+                        <a
+                            href="detail.html?id=original"
+                            class="small-btn">
+                            Lihat Menu
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- PRODUCT 2: TAKOYAKI CUMI -->
+            <article
+                class="product-card"
+                data-id="cumi"
+                data-name="Takoyaki Cumi"
+                data-category="Seafood"
+                data-price="17000">
+
+                <a href="detail.html?id=cumi">
+                    <img src="takoyaki cumi.jpg" alt="Takoyaki Cumi">
+                </a>
+
+                <div class="product-card-body">
+
+                    <span class="badge">
+                        Seafood
+                    </span>
+
+                    <h3>
+                        Takoyaki Cumi
+                    </h3>
+
+                    <p>
+                        Isian cumi gurih dengan tekstur lembut dan taburan Katsuobushi di atasnya.
+                    </p>
+
+                    <div class="card-bottom">
+
+                        <strong class="price">
+                            Rp 17.000
+                        </strong>
+
+                        <a
+                            href="detail.html?id=cumi"
+                            class="small-btn">
+                            Lihat Menu
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- PRODUCT 3: TAKOYAKI KEJU -->
+            <article
+                class="product-card"
+                data-id="keju"
+                data-name="Takoyaki Keju"
+                data-category="Cheese"
+                data-price="18000">
+
+                <a href="detail.html?id=keju">
+                    <img src="takoyaki keju.jpeg" alt="Takoyaki Keju">
+                </a>
+
+                <div class="product-card-body">
+
+                    <span class="badge">
+                        Cheese
+                    </span>
+
+                    <h3>
+                        Takoyaki Keju
+                    </h3>
+
+                    <p>
+                        Takoyaki dengan isian keju yang gurih dengan taburan Katsuobushi di atasnya.
+                    </p>
+
+                    <div class="card-bottom">
+
+                        <strong class="price">
+                            Rp 18.000
+                        </strong>
+
+                        <a
+                            href="detail.html?id=keju"
+                            class="small-btn">
+                            Lihat Menu
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- PRODUCT 4: TAKOYAKI MOZARELLA -->
+            <article
+                class="product-card"
+                data-id="mozarella"
+                data-name="Takoyaki Mozarella"
+                data-category="Cheese"
+                data-price="19000">
+
+                <a href="detail.html?id=mozarella">
+                    <img src="takoyaki mozarella.jpeg" alt="Takoyaki Mozarella">
+                </a>
+
+                <div class="product-card-body">
+
+                    <span class="badge">
+                        Cheese
+                    </span>
+
+                    <h3>
+                        Takoyaki Mozarella
+                    </h3>
+
+                    <p>
+                        Keju mozzarella yang lumer dan creamy dengan taburan Katsuobushi di atasnya.
+                    </p>
+
+                    <div class="card-bottom">
+
+                        <strong class="price">
+                            Rp 19.000
+                        </strong>
+
+                        <a
+                            href="detail.html?id=mozarella"
+                            class="small-btn">
+                            Lihat Menu
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- PRODUCT 5: TAKOYAKI SPESIAL -->
+            <article
+                class="product-card"
+                data-id="spesial"
+                data-name="Takoyaki Spesial"
+                data-category="Premium"
+                data-price="32000">
+
+                <a href="detail.html?id=spesial">
+                    <img src="takoyaki spesial.jpg" alt="Takoyaki Spesial">
+                </a>
+
+                <div class="product-card-body">
+
+                    <span class="badge">
+                        Premium
+                    </span>
+
+                    <h3>
+                        Takoyaki Spesial
+                    </h3>
+
+                    <p>
+                        Topping lebih lengkap untuk momen spesial.
+                    </p>
+
+                    <div class="card-bottom">
+
+                        <strong class="price">
+                            Rp 35.000
+                        </strong>
+
+                        <a
+                            href="detail.html?id=spesial"
+                            class="small-btn">
+                            Lihat Menu
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- PRODUCT 6: TAKOYAKI DOUBLE CHEESE -->
+            <article
+                class="product-card"
+                data-id="double-cheese"
+                data-name="Takoyaki Double Cheese"
+                data-category="Premium"
+                data-price="24000">
+
+                <a href="detail.html?id=double-cheese">
+                    <img src="takoyaki double cheese.jpg" alt="Takoyaki Double Cheese">
+                </a>
+
+                <div class="product-card-body">
+
+                    <span class="badge">
+                        Premium
+                    </span>
+
+                    <h3>
+                        Takoyaki Double Cheese
+                    </h3>
+
+                    <p>
+                        Keju ekstra untuk pencinta rasa gurih dengan taburan Katsuobushi di atasnya.
+                    </p>
+
+                    <div class="card-bottom">
+
+                        <strong class="price">
+                            Rp 24.000
+                        </strong>
+
+                        <a
+                            href="detail.html?id=double-cheese"
+                            class="small-btn">
+                            Lihat Menu
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+        </div>
+
+
+        <!-- EMPTY STATE -->
+        <p class="empty-state hidden" id="empty-state">
+            Menu belum ditemukan. Coba kata kunci atau kategori lain, ya.
+        </p>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+
+        <div class="wrap">
+
+            <div class="footer-main">
+
+                <!-- FOOTER BRAND -->
+                <div class="footer-brand">
+
+                    <a href="index.html">
+                        <img src="logo takoyaki.png" alt="Logo Takoyaki Hayyukk">
+                    </a>
+
+                    <p>
+                        Takoyaki hangat dengan pilihan rasa
+                        untuk menemani waktu santaimu.
+                    </p>
+
+                </div>
+
+
+                <!-- FOOTER LINKS -->
+                <div class="footer-links">
+
+                    <!-- EXPLORE -->
+                    <div>
+
+                        <b>Jelajahi</b>
+
+                        <a href="index.html">Beranda</a>
+                        <a href="katalog.html">Daftar Menu</a>
+                        <a href="tentang.html">Tentang Kami</a>
+
+                    </div>
+
+
+                    <!-- CONTACT -->
+                    <div>
+
+                        <b>Hubungi</b>
+
+                        <a href="https://wa.me/628812466667">
+                            WhatsApp
+                        </a>
+
+                        <a href="mailto:takoyakihayyukk@gmail.com">
+                            Email
+                        </a>
+
+                        <a href="kontak.html">
+                            Kontak &amp; Catering
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- COPYRIGHT -->
+            <div class="copyright">
+
+                &copy; 2026 Takoyaki Hayyukk.
+                Dibuat dengan rasa dan semangat.
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- JAVASCRIPT -->
+    <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>

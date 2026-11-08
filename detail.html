@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Detail Menu | Takoyaki Hayyukk</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- HEADER / NAVBAR -->
+    <header class="site-header">
+        <div class="wrap nav-wrap">
+
+            <a class="brand" href="index.html">
+                <img src="logo takoyaki.png" alt="Logo Takoyaki Hayyukk">
+            </a>
+
+            <button
+                class="menu-toggle"
+                id="menu-toggle"
+                aria-label="Buka navigasi"
+                aria-expanded="false">
+                ☰
+            </button>
+
+            <nav class="nav-links" id="nav-links">
+                <a href="index.html">Beranda</a>
+                <a href="katalog.html">Menu</a>
+                <a href="tentang.html">Tentang Kami</a>
+                <a href="kontak.html">Kontak</a>
+                <a href="katalog.html" class="nav-cta">Pesan Menu</a>
+            </nav>
+
+        </div>
+    </header>
+
+
+    <!-- MAIN CONTENT -->
+    <main class="wrap page-main">
+
+        <!-- BACK LINK -->
+        <a class="back-link" href="katalog.html">
+            &larr; Kembali ke katalog
+        </a>
+
+
+        <!-- DETAIL MENU SECTION -->
+        <section class="detail-layout">
+
+            <!-- PRODUCT IMAGE -->
+            <div class="detail-image">
+                <img
+                    src="takoyaki cumi.jpg"
+                    alt="Takoyaki pilihan"
+                    id="detail-image">
+            </div>
+
+
+            <!-- PRODUCT INFORMATION -->
+            <div class="detail-copy">
+
+                <span class="eyebrow" id="detail-category">
+                    Menu favorit
+                </span>
+
+                <h1 id="detail-name">
+                    Takoyaki Cumi
+                </h1>
+
+                <div class="detail-price" id="detail-price">
+                    Rp 17.000
+                </div>
+
+                <p id="detail-description">
+                    Takoyaki dengan isian cumi yang gurih dan taburan Katsuobushi di atasnya.
+                </p>
+
+
+                <!-- PRODUCT SPECIFICATIONS -->
+                <div class="spec-box">
+
+                    <h3>
+                        Informasi menu
+                    </h3>
+
+                    <ul id="detail-specs">
+                        <li>Isi 6 pcs</li>
+                        <li>Saus takoyaki dan mayones</li>
+                        <li>Dibuat saat dipesan</li>
+                    </ul>
+
+                </div>
+
+
+                <!-- QUANTITY -->
+                <label class="qty-label">
+                    Jumlah porsi
+
+                    <input
+                        type="number"
+                        id="detail-qty"
+                        min="1"
+                        value="1">
+                </label>
+
+
+                <!-- PAYMENT METHOD -->
+                <div class="payment-box">
+
+                    <h3>
+                        Pilihan pembayaran
+                    </h3>
+
+                    <label>
+                        <input
+                            type="radio"
+                            name="payment"
+                            value="COD / bayar di toko"
+                            checked>
+
+                        COD / bayar di toko
+                    </label>
+
+                    <label>
+                        <input
+                            type="radio"
+                            name="payment"
+                            value="Transfer bank / e-wallet">
+
+                        Transfer bank / e-wallet
+                    </label>
+
+                </div>
+
+
+                <!-- ORDER ACTIONS -->
+                <div class="order-actions">
+
+                    <button class="btn" id="detail-wa">
+                        Pesan via WhatsApp
+                    </button>
+
+                    <a
+                        href="kontak.html"
+                        class="btn btn-outline"
+                        id="detail-email">
+                        Pesan untuk acara
+                    </a>
+
+                </div>
+
+
+                <!-- PRICE INFORMATION -->
+                <small class="muted">
+                    Harga dapat berubah sesuai pilihan jumlah dan ketersediaan bahan.
+                </small>
+
+            </div>
+
+        </section>
+
+
+        <!-- CATERING CTA -->
+        <section class="cta-strip">
+
+            <div>
+
+                <h2>
+                    Butuh pesanan banyak?
+                </h2>
+
+                <p>
+                    Kami siap membantu pesanan acara dan catering.
+                </p>
+
+            </div>
+
+            <a
+                href="kontak.html#catering"
+                class="btn btn-light">
+                Hubungi untuk catering &rarr;
+            </a>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+
+        <div class="wrap">
+
+            <div class="footer-main">
+
+                <!-- FOOTER BRAND -->
+                <div class="footer-brand">
+
+                    <a href="index.html">
+                        <img src="logo takoyaki.png" alt="Logo Takoyaki Hayyukk">
+                    </a>
+
+                    <p>
+                        Takoyaki hangat dengan pilihan rasa
+                        untuk menemani waktu santaimu.
+                    </p>
+
+                </div>
+
+
+                <!-- FOOTER LINKS -->
+                <div class="footer-links">
+
+                    <!-- EXPLORE -->
+                    <div>
+
+                        <b>Jelajahi</b>
+
+                        <a href="index.html">Beranda</a>
+                        <a href="katalog.html">Daftar Menu</a>
+                        <a href="tentang.html">Tentang Kami</a>
+
+                    </div>
+
+
+                    <!-- CONTACT -->
+                    <div>
+
+                        <b>Hubungi</b>
+
+                        <a href="https://wa.me/628812466667">
+                            WhatsApp
+                        </a>
+
+                        <a href="mailto:takoyakihayyukk@gmail.com">
+                            Email
+                        </a>
+
+                        <a href="kontak.html">
+                            Kontak &amp; Catering
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- COPYRIGHT -->
+            <div class="copyright">
+
+                &copy; 2026 Takoyaki Hayyukk.
+                Dibuat dengan rasa dan semangat.
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- JAVASCRIPT -->
+    <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>

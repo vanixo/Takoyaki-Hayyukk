@@ -17,7 +17,7 @@ const PRODUCTS = [
         id: "cumi",
         name: "Takoyaki Cumi",
         category: "Seafood",
-        price: 17000,
+        price: 22000,
         image: "takoyaki cumi.jpg",
         desc: "Takoyaki dengan isian cumi yang gurih dengan taburan Katsuobushi di atasnya dan tekstur lembut di setiap gigitan.",
         tag: "Seafood",
@@ -45,7 +45,7 @@ const PRODUCTS = [
         id: "mozarella",
         name: "Takoyaki Mozarella",
         category: "Cheese",
-        price: 19000,
+        price: 25000,
         image: "takoyaki mozarella.jpeg",
         desc: "Varian keju mozzarella yang lumer untuk pencinta rasa creamy dengan taburan Katsuobushi di atasnya.",
         tag: "Lumer",
@@ -64,9 +64,10 @@ const PRODUCTS = [
         desc: "Takoyaki dengan topping lebih lengkap untuk pengalaman ngemil yang spesial.",
         tag: "Premium",
         spec: [
-            "Isi 12 pcs",
+            "Isi 24 pcs",
             "Topping spesial",
-            "Saus takoyaki dan mayones"
+            "Saus takoyaki dan mayones",
+            "Notes: Jika tanpa daun bawang bisa di ganti dengan topping lainnya sesuai permintaan."
         ]
     },
     {
